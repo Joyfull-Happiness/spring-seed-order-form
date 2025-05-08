@@ -40,14 +40,14 @@ fieldset {
   border: 0.25rem solid #41c3a4;
 }
 fieldset {
-  background-color: var(--white);
+  border: 0.25rem solid #41c3a4;
 }
 
 button {
   margin-top: 1.5rem;
   padding: 0.5rem;
-  background-color: var(--teal);
-  color: var(--black);
+  background-color: #41c3a4;
+  color: #ffffff;
   font-size: 1.2rem;
   border: none;
   cursor: pointer;
@@ -57,5 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--darkteal);
+  background-color: #ed695a;
+  border: 0.25rem solid #fee37f;
+  radius: 5px;
 }
