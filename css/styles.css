@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  /* background-color: #f0f4f9; */
+  background-image: url(../images/spring-floral-background_1.webp);
+  background-size: cover;
+  background-repeat: no-contain;
+}
+h1 {
+  font-family: Indie Flower;
+  text-align: center;
+  color: #ed695a;
+  font-weight: 500px;
+  font-size: 3rem;
+  padding: 1rem;
+  border: 0.25rem solid #41c3a4;
+  background-color: #fee37f;
+}
+form {
+  border: 0.25rem solid #41c3a4;
+  display: flex;
+  flex-direction: column;
+  background-color: #fee37f;
+  padding: 2rem;
+  border-radius: 5px;
+  text-transform: Uppercase;
+}
+label {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+input,
+select,
+fieldset {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  border: 0.25rem solid #41c3a4;
+}
+fieldset {
+  background-color: var(--white);
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: var(--teal);
+  color: var(--black);
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  border: 0.25rem solid #41c3a4;
+}
+
+button:hover {
+  background-color: var(--darkteal);
+}
