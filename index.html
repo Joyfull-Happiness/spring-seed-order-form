@@ -12,8 +12,6 @@
       <label for="name">
         <input type="text" id="name" name="name" placeholder="Name" required />
       </label>
-
-      <label> <input <!-- input or dropdown /> --> </label>
       <label for="quantity">
         <input
           type="number"
@@ -23,7 +21,17 @@
           required
         />
       </label>
-      <button>submit</button>
+      <fieldset>
+        <label for="seedType">Choose a Seed</label>
+        <select id="seedType" name="seedType" required>
+          <option value="">--Please choose an option--</option>
+          <option value="chocolate">Carrot</option>
+          <option value="vanilla">Apple</option>
+          <option value="strawberry">Tomato</option>
+        </select>
+      </fieldset>
+
+      <button type="submit">Get Your Icecream</button>
     </form>
   </body>
 </html>
