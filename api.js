@@ -17,6 +17,20 @@
 //DAY TWO
 // 🖥️ WHAT TO DO IN JAVASCRIPT:
 // - Use querySelector to select the form
+let form = document.querySelector("form");
+form.addEventListener("submit", onFormSubmit);
+console.log("form:", form);
+
+function onFormSubmit() {
+  event.preventDefault();
+  const data = new FormData(event.target);
+  const dataObject = Object.fromEntries(data.entries());
+  console.log(dataobject);
+
+  form.reset();
+
+  let name = "Jamie";
+}
 // - Add an event listener for the "submit" event
 // - Inside the event listener:
 //   1. Prevent the page from reloading (use event.preventDefault())
