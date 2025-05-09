@@ -25,11 +25,20 @@ function onFormSubmit() {
   event.preventDefault();
   const data = new FormData(event.target);
   const dataObject = Object.fromEntries(data.entries());
-  console.log(dataobject);
+  console.log(dataObject);
 
   form.reset();
 
-  let name = "Jamie";
+  let name = dataObject.name;
+  console.log("name:", name);
+  let quantity = dataObject.quantity;
+  console.log("quantity:", quantity);
+
+  let seedType = dataObject.seedType;
+  console.log("seedType:", seedType);
+
+  let thankYou = `Thank you ${name} for your order of ${quantity} ${seedType}!`;
+  console.log("first message to user:", thankYou);
 }
 // - Add an event listener for the "submit" event
 // - Inside the event listener:

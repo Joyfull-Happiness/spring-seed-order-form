@@ -39,9 +39,6 @@ fieldset {
   border-radius: 5px;
   border: 0.25rem solid #41c3a4;
 }
-fieldset {
-  border: 0.25rem solid #41c3a4;
-}
 
 button {
   margin-top: 1.5rem;
@@ -59,5 +56,4 @@ button {
 button:hover {
   background-color: #ed695a;
   border: 0.25rem solid #fee37f;
-  radius: 5px;
 }
